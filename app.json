@@ -1,0 +1,28 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+    "GMAIL_CLIENT_ID": {
+      "required": true
+    },
+    "GMAIL_CLIENT_SECRET": {
+      "required": true
+    },
+    "GMAIL_SMTP_PASSWORD": {
+      "required": true
+    },
+    "GMAIL_SMTP_USER": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "name": "macys-oes",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
